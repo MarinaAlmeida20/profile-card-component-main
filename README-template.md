@@ -30,8 +30,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS custom properties
 - Flexbox
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
 I will develop more pages like that to improve my skill.
