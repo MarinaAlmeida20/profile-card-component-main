@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body{
+    max-width: 1440px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position:-35vh -40vw , 55vw 50vh ;
+    background-repeat: no-repeat,no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    color: hsl(0, 0%, 59%);
+    box-sizing: border-box;
+}
+
+.card{
+    background-color:white;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.card-header{
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 500px;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    transform: translateY(50%);
+    border: 8px solid white;
+}
+
+.title{
+    margin-top: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-title strong {
+    color: black;
+    margin-right: 15px;
+}
+
+.card-title{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.title h3,
+.card-title,
+.numbers h4{
+    font-weight: 100;
+}
+
+.numbers {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid rgb(197, 195, 195);
+}
+
+.numbers h1{
+    color: black;
+    margin-bottom: 10px;
+}
+
+
+.numbers h4{
+    color: hsl(0, 0%, 59%);
+    letter-spacing: 2px;
+    font-size: 0.7em;
+    margin: 0;
+
+}
+.numbers-num{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    margin-top: 80px;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 425px){
+    body{
+        background-position: -100vh -150vw , 45vw 40vh;
+    }
+    .card{
+        max-width: 375px
+    }
+    .title{
+        margin-top: 32%;
+    }
+}
